@@ -8,10 +8,10 @@ class BancoVisual:
         self.root.geometry("380x520")
         
         # 🎨 Definindo as cores da paleta (Bege e Vermelho)
-        self.cor_fundo = "#F5EBE0"      # Bege claro
+        self.cor_fundo = "#5A7A8A"      # Bege claro
         self.cor_titulo = "#780000"     # Vermelho vinho
-        self.cor_destaque = "#C1121F"   # Vermelho carmim
-        self.cor_botao_dep = "#D4A373" # Bege escuro / Dourado
+        self.cor_destaque = "#64090F"   # Vermelho carmim
+        self.cor_botao_dep = "#803A25" # Bege escuro / Dourado
         self.cor_texto = "#2B2D42"      # Escuro para contraste
 
         self.root.configure(bg=self.cor_fundo)
